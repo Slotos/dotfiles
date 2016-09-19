@@ -1,6 +1,11 @@
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'Raimondi/delimitMate'
-Plug 'Shougo/neocomplete'
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'fishbullet/deoplete-ruby'
+else
+  Plug 'Shougo/neocomplete'
+end
 Plug 'briandoll/change-inside-surroundings.vim'
 Plug 'godlygeek/tabular'
 Plug 'tomtom/tcomment_vim'
