@@ -1,8 +1,17 @@
 Plug 'sheerun/vim-polyglot'
-Plug 'garbas/vim-snipmate'
+Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'jtratner/vim-flavored-markdown'
 Plug 'scrooloose/syntastic'
 Plug 'nelstrom/vim-markdown-preview'
 Plug 'skwp/vim-html-escape'
 Plug 'mxw/vim-jsx'
+
+" Elixir
+Plug 'slashmili/alchemist.vim'
+Plug 'elixir-lang/vim-elixir'
+Plug 'avdgaag/vim-phoenix'
+Plug 'jadercorrea/elixir_generator.vim'
+
+" English
+Plug 'amperser/proselint', {'rtp': 'plugins/vim/syntastic_proselint/'}

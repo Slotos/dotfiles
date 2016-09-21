@@ -4,3 +4,5 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
+Plug 'jadercorrea/smartest.vim'
+Plug 'majutsushi/tagbar'
