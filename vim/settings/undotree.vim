@@ -1,7 +1,7 @@
-nmap ,u :GundoToggle<CR>
+nmap ,u :UndotreeToggle<CR>
 
 " open on the right so as not to compete with the nerdtree
-let g:gundo_right = 1
+let g:undotree_WindowLayout = 3
 
 " a little wider for wider screens
-let g:gundo_width = 60
+let g:undotree_SplitWidth = 60
