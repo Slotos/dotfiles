@@ -30,3 +30,6 @@ nnoremap <silent> <D-M> :CtrlPBufTag<CR>
 
 " [Tags] Command to generate tags file
 let g:fzf_tags_command = 'ctags -R --quiet --fields=+il'
+
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep('rg --column --line-number --no-heading --color=always '.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)
