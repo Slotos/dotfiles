@@ -32,4 +32,8 @@ nnoremap <silent> <D-M> :CtrlPBufTag<CR>
 let g:fzf_tags_command = 'ctags -R --quiet --fields=+il'
 
 command! -bang -nargs=* Rg
-  \ call fzf#vim#grep('rg --column --line-number --no-heading --color=always '.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --color=always '.shellescape(<q-args>), 1,
+  \   <bang>0 ? fzf#vim#with_preview('up:60%')
+  \           : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \   <bang>0)
