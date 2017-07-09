@@ -29,13 +29,13 @@ syntax on
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
-" The mapleader has to be set before vundle starts loading all
+" The mapleader has to be set before plug starts loading all
 " the plugins.
 let mapleader=","
 
-" =============== Vundle Initialization ===============
-" This loads all the plugins specified in ~/.vim/vundles.vim
-" Use Vundle plugin to manage all other plugins
+" =============== Plug Initialization ===============
+" This loads all the plugins specified in ~/.vim/plugs.vim
+" Use Plug plugin to manage all other plugins
 if filereadable(expand("~/.vim/plugs.vim"))
   source ~/.vim/plugs.vim
 endif
