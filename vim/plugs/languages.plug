@@ -5,7 +5,6 @@ Plug 'jtratner/vim-flavored-markdown'
 Plug 'neomake/neomake'
 Plug 'nelstrom/vim-markdown-preview'
 Plug 'skwp/vim-html-escape'
-Plug 'mxw/vim-jsx'
 
 " Elixir
 Plug 'slashmili/alchemist.vim'
