@@ -14,8 +14,11 @@
 --regex-ruby=/(^|;)[ \t]*event\(? *:([[:alnum:]_]+)/\2/f,function,aasm_event/
 --regex-ruby=/(^|;)[ \t]*event\(? *:([[:alnum:]_]+)/\2!/f,function,aasm_event/
 --regex-ruby=/(^|;)[ \t]*event\(? *:([[:alnum:]_]+)/\2?/f,function,aasm_event/
+--regex-ruby=/(^|;)[ \t]*(private|protected|public)(_class_method)?\(? def *(self.)?([[:alnum:]_]+)/\5/f,inline scoped method,inline scoped methods (Ruby 2.1+)/
 --regex-ruby=/(^|^[[:blank:]]*)task[ \t\:']*([A-Za-z0-9_]*)/\2/t,tasks/
 --regex-ruby=/(^|^[[:blank:]]*)namespace[ \t\:]*([A-Za-z0-9_]*)/\2/n,namespaces/
+--regex-ruby=/(^|^[[:blank:]]*)factory[ \t\:']*([A-Za-z0-9_]*)/\2/r,factories/
+--regex-ruby=/(^|^[[:blank:]]*)trait[ \t\:']*([A-Za-z0-9_]*)/\2/r,factories/
 
 --langdef=markdown
 --langmap=markdown:.md.markdown.mdown.mkd.mkdn
