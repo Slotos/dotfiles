@@ -152,7 +152,9 @@ def install_homebrew
   puts "======================================================"
   puts "Installing Homebrew packages...There may be some warnings."
   puts "======================================================"
-  run %{brew install zsh ctags git hub tmux reattach-to-user-namespace ripgrep ghi hub proselint}
+  run %{brew install zsh git hub tmux reattach-to-user-namespace ripgrep ghi hub proselint}
+  run %{brew tap universal-ctags/universal-ctags}
+  run %{brew install --HEAD universal-ctags}
   run %{brew install neovim python3}
   run %{pip3 install --user --upgrade neovim}
   puts
