@@ -315,14 +315,6 @@ These hacks are Lion-centric. May not work for other OS'es. My favorite mods inc
   * No disk image verification (downloaded files open quicker)
   * Display the ~/Library folder in finder (hidden in Lion)
 
-### Macvim troubles with Lua?
-```
-brew uninstall macvim
-brew remove macvim
-brew cleanup
-brew install macvim --custom-icons --with-override-system-vim --with-lua --with-luajit
-```
-
 ### Terminal Vim troubles with Lua?
 Installing terminal vim (with lua) with an RVM managed Ruby can cause the neocomplete plugin to segfault. Try uninstalling vim, then installing with system ruby:
 
