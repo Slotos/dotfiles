@@ -126,3 +126,5 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.user
+[init]
+	templatedir = ~/.yadr/git_template
