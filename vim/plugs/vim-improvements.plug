@@ -1,8 +1,3 @@
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/vim-lsp'
-Plug 'prabirshrestha/asyncomplete-lsp.vim'
-
 Plug 'cohama/lexima.vim'
 Plug 'godlygeek/tabular'
 Plug 'tomtom/tcomment_vim'

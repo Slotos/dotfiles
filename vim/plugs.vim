@@ -11,13 +11,17 @@ call plug#begin()
 " This reduces churn and makes it easier to fork. See
 " ~/.vim/plugs/ to edit them:
 runtime ruby.plug
-runtime languages.plug
+runtime language_tools.plug
 runtime git.plug
 runtime appearance.plug
 runtime textobjects.plug
 runtime search.plug
 runtime project.plug
 runtime vim-improvements.plug
+runtime completion.plug
+runtime elixir.plug
+runtime pony.plug
+runtime pony.plug
 
 " The plugins listed in ~/.vim/.plugs.local will be added here to
 " allow the user to add vim plugins to yadr without the need for a fork.

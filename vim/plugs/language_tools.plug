@@ -5,10 +5,3 @@ Plug 'jtratner/vim-flavored-markdown'
 Plug 'w0rp/ale'
 Plug 'maximbaz/lightline-ale'
 Plug 'skwp/vim-html-escape'
-
-" Elixir
-Plug 'slashmili/alchemist.vim'
-Plug 'elixir-editors/vim-elixir'
-
-" Pony
-Plug 'jakwings/vim-pony'
