@@ -9,3 +9,6 @@ Plug 'skwp/vim-html-escape'
 " Elixir
 Plug 'slashmili/alchemist.vim'
 Plug 'elixir-editors/vim-elixir'
+
+" Pony
+Plug 'jakwings/vim-pony'
