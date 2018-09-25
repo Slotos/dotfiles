@@ -4,3 +4,4 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'majutsushi/tagbar'
 Plug 'kassio/neoterm'
+Plug 'wsdjeg/FlyGrep.vim'
