@@ -22,6 +22,7 @@ runtime completion.plug
 runtime elixir.plug
 runtime pony.plug
 runtime pony.plug
+runtime purescript.plug
 
 " The plugins listed in ~/.vim/.plugs.local will be added here to
 " allow the user to add vim plugins to yadr without the need for a fork.
